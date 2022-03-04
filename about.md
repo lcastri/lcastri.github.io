@@ -3,8 +3,8 @@ title: About
 layout: page
 ---
 
-
-<h2>Biography</h2> ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
+<img src="https://github.com/lcastri/lcastri.github.io/blob/master/assets/images/profile.jpg" align="right">
+<h2>Biography</h2>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
