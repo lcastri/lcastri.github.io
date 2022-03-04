@@ -3,7 +3,7 @@ title: About
 layout: page
 ---
 <a class="link" href="">
-<img class="selfie" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" align="right"/>
+<img class="selfie" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" align="right">
 </a>
 <h2>Biography</h2>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
