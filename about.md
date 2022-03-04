@@ -2,9 +2,7 @@
 title: About
 layout: page
 ---
-<a class="link" href="">
-<img class="selfie" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" align="right">
-</a>
+<img src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" align="right" width="300" height="319.38">
 <h2>Biography</h2>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
