@@ -5,13 +5,11 @@ title: Home
 
 <section class="list">
     <title_section>UPDATES</title_section>
-
+    <ul>
     {% for post in site.posts %}
         {% if post.updates %}
-            <div class="item {% if post.star %}star{% endif %}">
-                <aside><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
-                <h4 class="title">{{ post.title }}</h4>
-            </div>
+            <li> {{ post.title }} <aside><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside></li>
         {% endif %}
     {% endfor %}
+    </ul>
 </section>
