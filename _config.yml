@@ -68,6 +68,9 @@ projects: false
 # if you don't need publications, comment the *publications* configs below
 publications: true
 
+# if you don't need teaching, comment the *teaching* configs below
+teaching: true
+
 # if you don't need "about" or "blog", comment them out below
 about: true
 # blog: true
