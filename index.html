@@ -8,7 +8,8 @@ title: Home
     <ul>
     {% for post in site.posts %}
         {% if post.updates %}
-            <li> {{ post.title }} <aside><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside></li>
+            <aside><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
+            <li> {{ post.title }} </li>
         {% endif %}
     {% endfor %}
     </ul>
