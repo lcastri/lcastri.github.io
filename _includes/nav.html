@@ -29,6 +29,22 @@
                 </li>
             {% endif %}
         {% endif %}
+        
+        {% if site.publications == true %}
+            {% if page.title != "Publications" %}
+                <li class="item">
+                    <a class="link" href="{{ site.url }}/publications">publications</a>
+                </li>
+            {% endif %}
+        {% endif %}
+        
+        {% if site.teaching == true %}
+            {% if page.title != "Teaching" %}
+                <li class="item">
+                    <a class="link" href="{{ site.url }}/teaching">teaching</a>
+                </li>
+            {% endif %}
+        {% endif %}
 
         {% if site.resume == true %}
             <li class="item">
