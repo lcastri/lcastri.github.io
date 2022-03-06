@@ -16,5 +16,5 @@ You can find my complete resume <a class="ext_link" href="">here</a>.
 
 <h2>Research</h2>
 <p>
-I am currently involved in the European H2020 <a class="ext_link" href="https://darko-project.eu/">DARKO</a> project and, the goal of my research is to make robots able to learn the effect of their behaviours by observing how humans react to the robot’s actions. Pratically, I am working with Causal discovery and reasoning in Human Robot Spatial Interaction (HRSI).
+I am currently involved in the European H2020 <a class="ext_link" href="https://darko-project.eu/">DARKO</a> project. The goal of my research is to make robots able to learn the effect of their behaviours by observing how humans react to the robot’s actions. Pratically, I am working with Causal discovery and reasoning in Human Robot Spatial Interaction (HRSI).
 </p>
