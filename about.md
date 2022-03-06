@@ -12,4 +12,6 @@ Before joining the L-CAS, I graduated from Sapienza University of Rome with a MS
 </p>
 
 <h2>Research</h2>
-<p>The goal of my research is to make robots being able to learn from the human feedback and improve their behaviour by acting in the real world. In practise, I am working with Learning by Demonstration, Reinforcement Learning and Gaussian Processes. I am also doing Robot Software Engineering so that our tour guide robot can safely and reliably be between humans.</p>
+<p>
+I am currently involved in the European H2020 <a class="ext_link" href="https://darko-project.eu/">DARKO</a> project and, the goal of my research is to make robots able to learn the effect of their behaviours by observing how humans react to the robot’s actions. Pratically, I am working with Causal discovery and reasoning in Human Robot Spatial Interaction (HRSI).
+</p>
