@@ -4,17 +4,12 @@ layout: page
 ---
 <img class="selfie-about" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" align="right">
 <h2>Biography</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>
+
+I’m a PhD student at the <a href="https://lcas.lincoln.ac.uk/wp/">Lincoln Centre for Autonomous Systems (LCAS)</a>, University of Lincoln (UK). My direct advisors are Prof. <a href="https://nbellotto.blogs.lincoln.ac.uk/">Nicola Bellotto</a> and Prof. <a href="https://www.hanheide.net/">Marc Hanheide</a>.
+
+Before joining the L-CAS, I graduated from Sapienza University of Rome with a MSc in “Control Engineering” advised by Prof. <a href="https://phd.uniroma1.it/web/ANTONIO-CARCATERRA_nC1827_EN.aspx">Antonio Carcaterra</a> with a BSc in “Computer Science and Control Engineering” advised by Prof. <a href="http://www.diag.uniroma1.it/deluca/">Alessandro De Luca</a>.
+</p>
 
 <h2>Research</h2>
-<p>Lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>The goal of my research is to make robots being able to learn from the human feedback and improve their behaviour by acting in the real world. In practise, I am working with Learning by Demonstration, Reinforcement Learning and Gaussian Processes. I am also doing Robot Software Engineering so that our tour guide robot can safely and reliably be between humans.</p>
