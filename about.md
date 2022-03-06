@@ -7,8 +7,8 @@ layout: page
 <p>
 
 I’m a PhD student at the <a href="https://lcas.lincoln.ac.uk/wp/">Lincoln Centre for Autonomous Systems (LCAS)</a>, University of Lincoln (UK). My direct advisors are Prof. <a href="https://nbellotto.blogs.lincoln.ac.uk/">Nicola Bellotto</a> and Prof. <a href="https://www.hanheide.net/">Marc Hanheide</a>.
-
-Before joining the L-CAS, I graduated from Sapienza University of Rome with a MSc in “Control Engineering” advised by Prof. <a href="https://phd.uniroma1.it/web/ANTONIO-CARCATERRA_nC1827_EN.aspx">Antonio Carcaterra</a> with a BSc in “Computer Science and Control Engineering” advised by Prof. <a href="http://www.diag.uniroma1.it/deluca/">Alessandro De Luca</a>.
+<br><br>
+Before joining the L-CAS, I graduated from Sapienza University of Rome with a MSc in “Control Engineering” advised by Prof. <a href="https://phd.uniroma1.it/web/ANTONIO-CARCATERRA_nC1827_EN.aspx">Antonio Carcaterra</a> and, with a BSc in “Computer Science and Control Engineering” advised by Prof. <a href="http://www.diag.uniroma1.it/deluca/">Alessandro De Luca</a>.
 </p>
 
 <h2>Research</h2>
