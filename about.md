@@ -8,7 +8,9 @@ layout: page
 
 I’m a PhD student at the <a class="ext_link" href="https://lcas.lincoln.ac.uk/wp/">Lincoln Centre for Autonomous Systems (LCAS)</a>, University of Lincoln (UK). My direct advisors are Prof. <a class="ext_link" href="https://nbellotto.blogs.lincoln.ac.uk/">Nicola Bellotto</a> and Prof. <a class="ext_link" href="https://www.hanheide.net/">Marc Hanheide</a>.
 <br><br>
-Before joining the L-CAS, I graduated from Sapienza University of Rome with a MSc in “Control Engineering” advised by Prof. <a class="ext_link" href="https://phd.uniroma1.it/web/ANTONIO-CARCATERRA_nC1827_EN.aspx">Antonio Carcaterra</a> and, with a BSc in “Computer Science and Control Engineering” advised by Prof. <a class="ext_link" href="http://www.diag.uniroma1.it/deluca/">Alessandro De Luca</a>.
+I graduated from Sapienza University of Rome with a MSc in “Control Engineering” advised by Prof. <a class="ext_link" href="https://phd.uniroma1.it/web/ANTONIO-CARCATERRA_nC1827_EN.aspx">Antonio Carcaterra</a> and, with a BSc in “Computer Science and Control Engineering” advised by Prof. <a class="ext_link" href="http://www.diag.uniroma1.it/deluca/">Alessandro De Luca</a>. Between my MSc. studies and the current position, I worked for 1 year as test engineer at <a class="ext_link" href="https://www.ferrari.com/">Ferrari</a> and, for 1.5 year as sofware specialist at <a class="ext_link" href="https://www.metapack.it/">Metapack</a>.
+<br><br>
+You can find my complete resume <a class="ext_link" href="">here</a>.
 </p>
 
 <h2>Research</h2>
