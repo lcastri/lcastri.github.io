@@ -18,6 +18,12 @@
             <i class="fa-brands fa-instagram fa-xl"></i>
         </a>
     {% endif %}
+    
+    {% if site.scholar %}
+        <a class="link" data-title="scholar.google.com/{{ site.scholar }}" href="https://scholar.google.com/{{ site.scholar }}" target="_blank"  rel="noopener">
+            <i class="fa-brands fa-scholar fa-xl"></i>
+        </a>
+    {% endif %}
 
     {% if site.linkedin %}
         <a class="link" data-title="linkedin.com/in/{{ site.linkedin }}" href="https://www.linkedin.com/in/{{ site.linkedin }}" target="_blank"  rel="noopener">
