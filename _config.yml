@@ -91,6 +91,9 @@ post-advance-links: [blog]
 # show author block at the end of a post ?
 show-author: true
 
+# show indigo theme at the end of the page ?
+show-theme: false
+
 # do you want some animations?
 animation: true
 
