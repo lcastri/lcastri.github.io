@@ -2,7 +2,7 @@
 title: About
 layout: page
 ---
-<img class="selfie-about" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" align="right">
+<img class="about-img" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" align="right">
 <h2>Biography</h2>
 <p>
 I’m a PhD student at the <a class="ext_link" href="https://lcas.lincoln.ac.uk/wp/">Lincoln Centre for Autonomous Systems (LCAS)</a>, University of Lincoln (UK). My direct advisors are Prof. <a class="ext_link" href="https://nbellotto.blogs.lincoln.ac.uk/">Nicola Bellotto</a> and Prof. <a class="ext_link" href="https://www.hanheide.net/">Marc Hanheide</a>.
