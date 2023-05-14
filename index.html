@@ -8,8 +8,14 @@ title: Home
     <ul>
     {% for post in site.posts %}
         {% if post.updates %}
-            <aside><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
-            <li> {{ post.title }} </li>
+            <aside>
+                <time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time>
+            </aside>
+            {% if post.headerImage %}
+                <li> {{ post.title }} <img style="vertical-align:middle" src="{{ post.image }}" width="27.56" height="32"></li>
+            {% else %}
+                <li> {{ post.title }} </li>
+            {% endif %}
         {% endif %}
     {% endfor %}
     </ul>

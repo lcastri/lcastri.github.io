@@ -1,5 +1,5 @@
 ---
-title: "New python library for fast and accurate causal discovery!"
+title: "New python library called F-PCMCI for fast and accurate causal discovery!"
 layout: post
 date: 2023-04-11
 tag: fpcmci2023
