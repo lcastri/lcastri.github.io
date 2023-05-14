@@ -5,6 +5,8 @@ date: 2023-04-11
 tag: fpcmci2023
 image: https://lcastri.github.io/assets/images/fpcmci.png
 headerImage: true
+width: 27.56
+heigth: 32
 updates: true
 hidden: true # don't count this post in blog pagination
 description: "F-PCMCI"

@@ -12,7 +12,7 @@ title: Home
                 <time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time>
             </aside>
             {% if post.headerImage %}
-                <li> {{ post.title }} <img style="vertical-align:middle" src="{{ post.image }}" width="27.56" height="32"></li>
+                <li> <img style="vertical-align:middle" src="{{ post.image }}" width="{{ post.width }}" height="{{ post.height }}"> {{ post.title }} </li>
             {% else %}
                 <li> {{ post.title }} </li>
             {% endif %}
