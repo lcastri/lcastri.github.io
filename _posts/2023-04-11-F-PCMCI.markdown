@@ -2,7 +2,7 @@
 title: "New python library for fast and accurate causal discovery!"
 layout: post
 date: 2023-04-11
-tag: acai2021
+tag: fpcmci2023
 image: https://lcastri.github.io/assets/images/fpcmci.png
 headerImage: true
 updates: true
