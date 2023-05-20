@@ -1,5 +1,5 @@
 ---
-title: <a class="ext_link" href="https://github.com/lcastri/fpcmci">F-PCMCI</a> new python library for fast and accurate causal discovery!
+title: <a class="ext_link" href="https://github.com/lcastri/fpcmci">F-PCMCI</a> new python library for fast and accurate causal discovery.
 layout: post
 date: 2023-04-11
 tag: fpcmci2023

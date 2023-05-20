@@ -1,5 +1,5 @@
 ---
-title: "Advanced Course on AI on Human Centered AI (ACAI2021)"
+title: I attended the Advanced Course on AI (<a class="ext_link" href="https://www.humane-ai.eu/event/acai2021/">ACAI2021</a>) in Berlin.
 layout: post
 date: 2021-10-11
 tag: acai2021
