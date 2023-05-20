@@ -1,5 +1,5 @@
 ---
-title: I had the opportunity to give a lecture on Causal Discovery in the Artificial Intelligence course of the Computer Science program at the University of Padua. Take a look at the <a class="ext_link" href="https://github.com/lcastri/lcastri.github.io/blob/master/causal_discovery_lecture.pdf">slides</a>.
+title: I had the opportunity to give a lecture on Causal Discovery in the Artificial Intelligence course of the Computer Science program at the University of Padua.<br>Take a look at the <a class="ext_link" href="https://github.com/lcastri/lcastri.github.io/blob/master/causal_discovery_lecture.pdf">slides</a>.
 layout: post
 date: 2023-04-27
 tag: causal_discovery_lecture2023
