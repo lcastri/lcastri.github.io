@@ -25,6 +25,26 @@ Visit my Google Scholar profile <a class="ext_link" href="https://scholar.google
         </div>
         <div>
             <a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename="https://lcastri.github.io/publication/clear2023.bib">Cite</a>
+            <div class="citation" style="display: none;">
+                ciaooo
+            </div>
+            
+            <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                var citeButton = document.querySelector(".js-cite-modal");
+                var citation = document.querySelector(".citation");
+            
+                citeButton.addEventListener("click", function(event) {
+                    event.preventDefault(); // Prevent the default link behavior
+            
+                    if (citation.style.display === "none" || citation.style.display === "") {
+                        citation.style.display = "block";
+                    } else {
+                        citation.style.display = "none";
+                    }
+                });
+            });
+            </script>
         </div>
     </li>
     <li>
