@@ -25,8 +25,8 @@ Visit my Google Scholar profile <a class="ext_link" href="https://scholar.google
         </div>
         <div>
             <a href="#" class="btn btn-outline-primary btn-publication js-cite-modal" data-filename="https://lcastri.github.io/publication/clear2023.bib">Cite</a>
-            <button class="btn btn-outline-success btn-copy">Copy</button>
-            <a href="#" class="btn btn-outline-primary btn-download" download="citation.bib">Download</a>
+            <button class="btn btn-outline-primary btn-publication" style="display: none;">Copy</button>
+            <a href="#" class="btn btn-outline-primary btn-publication" download="citation.bib" style="display: none;">Download</a>
             <pre class="citation" style="display: none;"></pre>
             
             <script>
@@ -45,15 +45,23 @@ Visit my Google Scholar profile <a class="ext_link" href="https://scholar.google
                                 .then(data => {
                                     citation.textContent = data; 
                                     citation.style.display = "block";
+                                    copyButton.style.display = "block";
+                                    downloadButton.style.display = "block";
                                 });
                         } else {
                             citation.style.display = "none";
+                            copyButton.style.display = "none";
+                            downloadButton.style.display = "none";
                         }
                     });
                     
                     copyButton.addEventListener("click", function(event) {
                         event.preventDefault();
-                        copyToClipboard(citation.textContent);
+                        if (copyToClipboard(citation.textContent)) {
+                            copyButton.style.backgroundColor = "#28a745";
+                            copyButton.style.color = "#fff"; 
+                            copyButton.textContent = "Copied!";
+                        }
                     });
                     
                     downloadButton.addEventListener("click", function(event) {
@@ -69,12 +77,13 @@ Visit my Google Scholar profile <a class="ext_link" href="https://scholar.google
                     
                     try {
                         document.execCommand("copy");
-                        alert("Citation copied to clipboard.");
+                        return true; 
                     } catch (err) {
                         console.error("Unable to copy citation: " + err);
+                        return false; 
+                    } finally {
+                        document.body.removeChild(textArea);
                     }
-                    
-                    document.body.removeChild(textArea);
                 }
             </script>
         </div>
