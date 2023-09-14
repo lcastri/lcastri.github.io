@@ -24,14 +24,14 @@ Visit my Google Scholar profile <a class="ext_link" href="https://scholar.google
             <span>[<a class="ext_link" href="https://github.com/lcastri/fpcmci">code</a>]</span>
         </div>
         <div>
-            <a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename="https://lcastri.github.io/publication/clear2023.bib">Cite</a>
-            <div id="bibContent" style="display: none;">              
-            </div>
+            <a href="#" class="nounderline btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename="https://lcastri.github.io/publication/clear2023.bib">cite</a>
+            <pre class="citation" style="display: none;">
+            </pre>
             
             <script>
             document.addEventListener("DOMContentLoaded", function() {
                 var citeButton = document.querySelector(".js-cite-modal");
-                var citation = document.querySelector("#bibContent");
+                var citation = document.querySelector(".citation");
                 
                 citeButton.addEventListener("click", function(event) {
                     event.preventDefault();
