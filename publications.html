@@ -24,6 +24,7 @@ Visit my Google Scholar profile <a class="ext_link" href="https://scholar.google
             <span>[<a class="ext_link" href="https://github.com/lcastri/fpcmci">code</a>]</span>
         </div>
         <button class="show-citation">Show Citation</button>
+        {% if post.projects %}
         <div class="citation">
             Citation for the first publication goes here.
         </div>
@@ -46,16 +47,12 @@ Visit my Google Scholar profile <a class="ext_link" href="https://scholar.google
 </ul>
 
 <script>
-    // Get all the buttons with class "show-citation"
     var showButtons = document.querySelectorAll(".show-citation");
 
-    // Add click event listeners to each button
     showButtons.forEach(function(button) {
         button.addEventListener("click", function() {
-            // Find the corresponding citation element
             var citation = button.nextElementSibling;
             
-            // Toggle the visibility of the citation
             if (citation.style.display === "none" || citation.style.display === "") {
                 citation.style.display = "block";
                 button.textContent = "Hide Citation";
