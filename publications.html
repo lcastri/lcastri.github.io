@@ -24,32 +24,61 @@ Visit my Google Scholar profile <a class="ext_link" href="https://scholar.google
             <span>[<a class="ext_link" href="https://github.com/lcastri/fpcmci">code</a>]</span>
         </div>
         <div>
-            <a href="#" class="btn btn-outline-primary btn-publication js-cite-modal" data-filename="https://lcastri.github.io/publication/clear2023.bib">cite</a>
-            <pre class="citation" style="display: none;">
-            </pre>
+            <a href="#" class="btn btn-outline-primary btn-publication js-cite-modal" data-filename="https://lcastri.github.io/publication/clear2023.bib">Cite</a>
+            <button class="btn btn-outline-success btn-copy">Copy</button>
+            <a href="#" class="btn btn-outline-primary btn-download" download="citation.bib">Download</a>
+            <pre class="citation" style="display: none;"></pre>
             
             <script>
                 document.addEventListener("DOMContentLoaded", function() {
-                var citeButton = document.querySelector(".js-cite-modal");
-                var citation = document.querySelector(".citation");
-                
-                citeButton.addEventListener("click", function(event) {
-                    event.preventDefault();
+                    var citeButton = document.querySelector(".js-cite-modal");
+                    var copyButton = document.querySelector(".btn-copy");
+                    var downloadButton = document.querySelector(".btn-download");
+                    var citation = document.querySelector(".citation");
+                    
+                    citeButton.addEventListener("click", function(event) {
+                        event.preventDefault();
             
-                    if (citation.style.display === "none" || citation.style.display === "") {
-                        fetch(citeButton.getAttribute("data-filename"))
-                            .then(response => response.text())
-                            .then(data => {
-                                citation.textContent = data; 
-                                citation.style.display = "block";
-                            });
-                    } else {
-                        citation.style.display = "none";
-                    }
+                        if (citation.style.display === "none" || citation.style.display === "") {
+                            fetch(citeButton.getAttribute("data-filename"))
+                                .then(response => response.text())
+                                .then(data => {
+                                    citation.textContent = data; 
+                                    citation.style.display = "block";
+                                });
+                        } else {
+                            citation.style.display = "none";
+                        }
+                    });
+                    
+                    copyButton.addEventListener("click", function(event) {
+                        event.preventDefault();
+                        copyToClipboard(citation.textContent);
+                    });
+                    
+                    downloadButton.addEventListener("click", function(event) {
+                        downloadButton.href = "data:text/plain;charset=utf-8," + encodeURIComponent(citation.textContent);
+                    });
                 });
-            });
+                
+                function copyToClipboard(text) {
+                    var textArea = document.createElement("textarea");
+                    textArea.value = text;
+                    document.body.appendChild(textArea);
+                    textArea.select();
+                    
+                    try {
+                        document.execCommand("copy");
+                        alert("Citation copied to clipboard.");
+                    } catch (err) {
+                        console.error("Unable to copy citation: " + err);
+                    }
+                    
+                    document.body.removeChild(textArea);
+                }
             </script>
         </div>
+        
     </li>
     <li>
         <u>L. Castri</u>, S. Mghames and N. Bellotto (2023)<br>
