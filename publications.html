@@ -62,6 +62,13 @@ Visit my Google Scholar profile <a class="ext_link" href="https://scholar.google
                             copyButton.classList.remove("btn-publication");
                             copyButton.classList.add("btn-success");
                             copyButton.textContent = "Copied!";
+                            
+                            setTimeout(function() {
+                                copyButton.classList.add("btn-outline-success");
+                                copyButton.classList.add("btn-publication");
+                                copyButton.classList.remove("btn-success");
+                                copyButton.textContent = "Copy";
+                            }, 3000);
                         }
                     });
                     
