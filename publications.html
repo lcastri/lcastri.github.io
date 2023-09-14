@@ -45,8 +45,8 @@ Visit my Google Scholar profile <a class="ext_link" href="https://scholar.google
                                 .then(data => {
                                     citation.textContent = data; 
                                     citation.style.display = "block";
-                                    copyButton.style.display = "block";
-                                    downloadButton.style.display = "block";
+                                    copyButton.style.display = "inline-block";
+                                    downloadButton.style.display = "inline-block";
                                 });
                         } else {
                             citation.style.display = "none";
@@ -58,8 +58,9 @@ Visit my Google Scholar profile <a class="ext_link" href="https://scholar.google
                     copyButton.addEventListener("click", function(event) {
                         event.preventDefault();
                         if (copyToClipboard(citation.textContent)) {
-                            copyButton.style.backgroundColor = "#28a745";
-                            copyButton.style.color = "#fff"; 
+                            copyButton.classList.remove("btn-outline-success");
+                            copyButton.classList.remove("btn-publication");
+                            copyButton.classList.add("btn-success");
                             copyButton.textContent = "Copied!";
                         }
                     });
