@@ -35,11 +35,20 @@ title_section
 a
 	color: $delta
 	font-weight: $thin-font
-	text-decoration: underline
+	text-decoration: underline !important
 
-a.nounderline
+.nounderline
 	color: $delta
 	font-weight: $thin-font
+	text-decoration: none !important
+
+.btn
+
+.btn-outline-primary
+	border-color: $delta
+	&:hover
+		color: $delta
+
 
 .ext_link
 	color: $delta
