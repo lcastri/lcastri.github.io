@@ -44,21 +44,3 @@ Visit my Google Scholar profile <a class="ext_link" href="https://scholar.google
         Convegno Nazionale CINI sull’Intelligenza Artificiale (Ital-IA), Online.
     </li>
 </ul>
-
-<script>
-    var showButtons = document.querySelectorAll(".show-citation");
-
-    showButtons.forEach(function(button) {
-        button.addEventListener("click", function() {
-            var citation = button.nextElementSibling;
-            
-            if (citation.style.display === "none" || citation.style.display === "") {
-                citation.style.display = "block";
-                button.textContent = "Hide Citation";
-            } else {
-                citation.style.display = "none";
-                button.textContent = "Show Citation";
-            }
-        });
-    });
-</script>
