@@ -13,27 +13,27 @@
             {% endif %}
             
             {% if include.showCode %}
-                <a href="#" class="btn btn-outline-primary btn-publication">Code</a>
+                <a href="{{ include.codeLink }}" class="btn btn-outline-primary btn-publication">Code</a>
             {% endif %}
 
             {% if include.showPyPI %}
-                <a href="#" class="btn btn-outline-primary btn-publication">PyPI</a>
+                <a href="{{ include.pypiLink }}" class="btn btn-outline-primary btn-publication">PyPI</a>
             {% endif %}
 
             {% if include.showProject %}
-                <a href="#" class="btn btn-outline-primary btn-publication">Project</a>
+                <a href="{{ include.projectLink }}" class="btn btn-outline-primary btn-publication">Project</a>
             {% endif %}
 
             {% if include.showPoster %}
-                <a href="#" class="btn btn-outline-primary btn-publication">Poster</a>
+                <a href="{{ include.posterLink }}" class="btn btn-outline-primary btn-publication">Poster</a>
             {% endif %}
 
             {% if include.showSlide %}
-                <a href="#" class="btn btn-outline-primary btn-publication">Slide</a>
+                <a href="{{ include.slideLink }}" class="btn btn-outline-primary btn-publication">Slide</a>
             {% endif %}
 
             {% if include.showVideo %}
-                <a href="#" class="btn btn-outline-primary btn-publication">Video</a>
+                <a href="{{ include.videoLink }}" class="btn btn-outline-primary btn-publication">Video</a>
             {% endif %}
 
         </div>
