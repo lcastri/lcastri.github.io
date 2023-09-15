@@ -4,33 +4,34 @@
 
         {% include citation.html filename=include.filename citID=cit-include.citnavID %}
         <div class="additional-buttons">
-            {% if include.showPDF %}
+        {% if include.showPDF %}
             <a href="#" class="btn btn-outline-primary btn-publication">PDF</a>
-            {% endif %}
-            
-            {% if include.showCode %}
+        {% endif %}
+        
+        {% if include.showCode %}
             <a href="#" class="btn btn-outline-primary btn-publication">Code</a>
-            {% endif %}
+        {% endif %}
 
-            {% if include.showPyPI %}
+        {% if include.showPyPI %}
             <a href="#" class="btn btn-outline-primary btn-publication">PyPI</a>
-            {% endif %}
+        {% endif %}
 
-            {% if include.showProject %}
+        {% if include.showProject %}
             <a href="#" class="btn btn-outline-primary btn-publication">Project</a>
-            {% endif %}
+        {% endif %}
 
-            {% if include.showPoster %}
+        {% if include.showPoster %}
             <a href="#" class="btn btn-outline-primary btn-publication">Poster</a>
-            {% endif %}
+        {% endif %}
 
-            {% if include.showSlide %}
+        {% if include.showSlide %}
             <a href="#" class="btn btn-outline-primary btn-publication">Slide</a>
-            {% endif %}
+        {% endif %}
 
-            {% if include.showVideo %}
+        {% if include.showVideo %}
             <a href="#" class="btn btn-outline-primary btn-publication">Video</a>
-            {% endif %}
+        {% endif %}
+
         </div>
 
     </div>
