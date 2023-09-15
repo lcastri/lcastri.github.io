@@ -2,7 +2,7 @@
 
     <div class="citation-nav-container">
 
-        {% include citation.html filename=include.filename citID="cit-"include.citnavID %}
+        {% include citation.html filename=include.filename citID=include.citnavID ~ "-citation" %}
         <div class="additional-buttons">
         {% if include.showPDF %}
             <a href="#" class="btn btn-outline-primary btn-publication">PDF</a>
