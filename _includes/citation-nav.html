@@ -4,13 +4,12 @@
         
         {% capture derivedCitID %}{{ include.citnavID }}-citation{% endcapture %}
         
-        <!-- {% include citation.html filename=include.filename citID=derivedCitID %} -->
         <div class="additional-buttons">
 
             <a href="#" class="btn btn-outline-primary btn-publication js-cite-modal" data-filename="{{ include.filename }}">Cite</a>
 
             {% if include.showPDF %}
-                <a href="#" class="btn btn-outline-primary btn-publication">PDF</a>
+                <a href="{{ include.PDF }}" class="btn btn-outline-primary btn-publication">PDF</a>
             {% endif %}
             
             {% if include.showCode %}
