@@ -23,91 +23,14 @@ Visit my Google Scholar profile <a class="ext_link" href="https://scholar.google
             <img style="vertical-align:middle" src="https://lcastri.github.io/assets/images/fpcmci.png" alt="F-PCMCI" width="27.56" height="32">
             <span>[<a class="ext_link" href="https://github.com/lcastri/fpcmci">code</a>]</span>
         </div>
-        <!-- <div>
-            <a href="#" class="btn btn-outline-primary btn-publication js-cite-modal" data-filename="https://lcastri.github.io/publication/clear2023.bib">Cite</a>
-            <div class="citation-container">
-                <pre class="citation" style="display: none; margin-bottom: 0px;"></pre>
-                <div class="citation-buttons">
-                    <div class="button-group">
-                        <a class="btn btn-outline-success btn-publication btn-copy" style="display: none;">Copy</a>
-                        <a href="#" class="btn btn-outline-primary btn-publication btn-download" download="citation.bib" style="display: none;">Download</a>
-                    </div>
-                </div>
-            </div>
-            
-            <script>
-                document.addEventListener("DOMContentLoaded", function() {
-                    var citeButton = document.querySelector(".js-cite-modal");
-                    var copyButton = document.querySelector(".btn-copy");
-                    var downloadButton = document.querySelector(".btn-download");
-                    var citation = document.querySelector(".citation");
-                    
-                    citeButton.addEventListener("click", function(event) {
-                        event.preventDefault();
-            
-                        if (citation.style.display === "none" || citation.style.display === "") {
-                            fetch(citeButton.getAttribute("data-filename"))
-                                .then(response => response.text())
-                                .then(data => {
-                                    citation.textContent = data; 
-                                    citation.style.display = "block";
-                                    copyButton.style.display = "inline-block";
-                                    downloadButton.style.display = "inline-block";
-                                });
-                        } else {
-                            citation.style.display = "none";
-                            copyButton.style.display = "none";
-                            downloadButton.style.display = "none";
-                        }
-                    });
-                    
-                    copyButton.addEventListener("click", function(event) {
-                        event.preventDefault();
-                        if (copyToClipboard(citation.textContent)) {
-                            copyButton.classList.remove("btn-outline-success");
-                            copyButton.classList.remove("btn-publication");
-                            copyButton.classList.add("btn-success");
-                            copyButton.textContent = "Copied!";
-                            
-                            setTimeout(function() {
-                                copyButton.classList.add("btn-outline-success");
-                                copyButton.classList.add("btn-publication");
-                                copyButton.classList.remove("btn-success");
-                                copyButton.textContent = "Copy";
-                            }, 2000);
-                        }
-                    });
-                    
-                    downloadButton.addEventListener("click", function(event) {
-                        downloadButton.href = "data:text/plain;charset=utf-8," + encodeURIComponent(citation.textContent);
-                    });
-                });
-                
-                function copyToClipboard(text) {
-                    var textArea = document.createElement("textarea");
-                    textArea.value = text;
-                    document.body.appendChild(textArea);
-                    textArea.select();
-                    
-                    try {
-                        document.execCommand("copy");
-                        return true; 
-                    } catch (err) {
-                        console.error("Unable to copy citation: " + err);
-                        return false; 
-                    } finally {
-                        document.body.removeChild(textArea);
-                    }
-                }
-            </script>
-        </div> -->
         {% include citation.html filename="https://lcastri.github.io/publication/clear2023.bib" %}
-
+        
     </li>
     <li>
         <u>L. Castri</u>, S. Mghames and N. Bellotto (2023)<br>
         “<a class="ext_link" href="https://arxiv.org/abs/2301.03886">From Continual Learning to Causal Discovery in Robotics</a>”,<br>
         AAAI Bridge Program “Continual Causality”.
+        {% include citation.html filename="https://lcastri.github.io/publication/aaai2023.bib" %}
     </li>
     <li>
         <u>L. Castri</u>, S. Mghames, M. Hanheide and N. Bellotto (2022).<br>
