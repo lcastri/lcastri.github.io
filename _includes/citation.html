@@ -11,11 +11,12 @@
     </div>
     
     <script>
-        document.addEventListener("DOMContentLoaded", function() {  
-            var citeButton = document.querySelector(".js-cite-modal");
-            var copyButton = document.querySelector(".btn-copy");
-            var downloadButton = document.querySelector(".btn-download");
-            var citation = document.querySelector(".citation");
+        (function() {
+            var citationComponent = document.querySelector(".{{ include.citation.id }}");
+            var citeButton = citationComponent.querySelector(".js-cite-modal");
+            var copyButton = citationComponent.querySelector(".btn-copy");
+            var downloadButton = citationComponent.querySelector(".btn-download");
+            var citation = citationComponent.querySelector(".citation");
             
             citeButton.addEventListener("click", function(event) {
                 event.preventDefault();
@@ -56,7 +57,7 @@
             downloadButton.addEventListener("click", function(event) {
                 downloadButton.href = "data:text/plain;charset=utf-8," + encodeURIComponent(citation.textContent);
             });
-        });
+        })();
         
         function copyToClipboard(text) {
             var textArea = document.createElement("textarea");
