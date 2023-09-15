@@ -6,7 +6,7 @@
         
         <div class="additional-buttons">
 
-            <a href="#" class="btn btn-outline-primary btn-publication js-cite-modal" data-filename="{{ include.filename }}">Cite</a>
+            <a href="#" class="btn btn-outline-primary btn-publication js-cite-modal {{ derivedCitID }}" data-filename="{{ include.filename }}">Cite</a>
 
             {% if include.showPDF %}
                 <a href="{{ include.pdfLink }}" class="btn btn-outline-primary btn-publication">PDF</a>
@@ -57,7 +57,7 @@
             var citationComponent = document.querySelector(".{{ derivedCitID }}");
             
             if (citationComponent) {
-                var citeButton = document.querySelector(".js-cite-modal");
+                var citeButton = citationComponent.querySelector(".js-cite-modal");
                 var copyButton = citationComponent.querySelector(".btn-copy");
                 var downloadButton = citationComponent.querySelector(".btn-download");
                 var citation = citationComponent.querySelector(".citation");
