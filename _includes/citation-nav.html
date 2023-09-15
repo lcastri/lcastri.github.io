@@ -1,4 +1,4 @@
-<div class="{{ include.citation.id }}">
+<div class="{{ include.class }}">
     <a href="#" class="btn btn-outline-primary btn-publication js-cite-modal" data-filename="{{ include.filename }}">Cite</a>
     <div class="citation-container">
         <pre class="citation" style="display: none; margin-bottom: 0px;"></pre>
@@ -12,7 +12,7 @@
     
     <script>
         (function() {
-            var citationComponent = document.querySelector(".{{ include.citation.id }}");
+            var citationComponent = document.querySelector(".{{ include.class }}");
             
             if (citationComponent) {
                 var citeButton = citationComponent.querySelector(".js-cite-modal");
