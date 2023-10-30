@@ -196,21 +196,6 @@ pre
 	color: $zeta
 
 
-
-
-$boxProperties: 
-	width: fit-content
-	height: 100%
-	position: absolute
-	// transform: rotate(-90deg)
-	writing-mode: vertical-lr
-	-webkit-transform: rotate(-180deg)
-	border-radius: 8px
-	text-align: center
-	left: 2%
-	color: #ffffff
-	padding: 10px 5px
-
 .container
 	display: flex
 	align-items: center
@@ -221,7 +206,6 @@ $boxProperties:
 		width: fit-content
 		height: 100%
 		position: absolute
-		// transform: rotate(-90deg)
 		writing-mode: vertical-lr
 		-webkit-transform: rotate(-180deg)
 		border-radius: 8px
@@ -237,13 +221,13 @@ $boxProperties:
 
 .container-paper
 	@extend .container
-	&::before.
+	&::before
 		content: 'Paper'
 		background-color: $delta 
 
 .container-paper
 	@extend .container
-	&::before.
+	&::before
 		content: 'Talk'
 		background-color: #FF5733
 
