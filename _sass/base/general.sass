@@ -195,13 +195,13 @@ pre
 .inline-icon
 	color: $zeta
 
-.container
+.container-paper
 	display: flex
 	align-items: center
 	position: relative
 
 	&::before
-		content: ''
+		content: 'Paper'
 		width: fit-content // Adjust the fixed width of the colored block
 		background-color: $delta // Set the color of the block
 		height: 100% // Set the height to match the full height of the container
@@ -214,17 +214,30 @@ pre
 		left: -1%
 		color: #ffffff
 		
-	.paper
-		content: 'Paper'
-		background-color: $delta // Set the color of the block
-			
-	.talk
-		content: 'Talk'
-		background-color: #FF5733 // Set the color of the block
-    
-
 	.text-right
 		padding-left: 20px // Remove default paragraph margins for a cleaner look
 		z-index: 1 // Place the text above the pseudo-element	
 
 
+.container-talk
+	display: flex
+	align-items: center
+	position: relative
+
+	&::before
+		content: 'Talk'
+		width: fit-content // Adjust the fixed width of the colored block
+		background-color: #FF5733 // Set the color of the block
+		height: 100% // Set the height to match the full height of the container
+		position: absolute
+		transform: rotate(-90deg)
+		writing-mode: vertical-lr
+		-webkit-transform: rotate(-180deg)
+		border-radius: 8px
+		text-align: center
+		left: -1%
+		color: #ffffff
+		
+	.text-right
+		padding-left: 20px // Remove default paragraph margins for a cleaner look
+		z-index: 1 // Place the text above the pseudo-element
