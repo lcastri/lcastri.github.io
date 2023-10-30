@@ -196,46 +196,11 @@ pre
 	color: $zeta
 
 
-// .container
-// 	display: flex
-// 	align-items: center
-// 	position: relative
-
-// 	&::before
-// 		content: ''
-// 		width: fit-content
-// 		height: 100%
-// 		position: absolute
-// 		writing-mode: vertical-lr
-// 		-webkit-transform: rotate(-180deg)
-// 		border-radius: 8px
-// 		text-align: center
-// 		left: 2%
-// 		color: #ffffff
-// 		padding: 10px 5px
-
-// 	p.text-right
-// 		margin: 0
-// 		z-index: 1
-// 		padding-left: 45px
-
-// .container-paper
-// 	@extend .container
-// 	&::before
-// 		content: 'Paper'
-// 		background-color: $delta 
-
-// .container-talk
-// 	@extend .container
-// 	&::before
-// 		content: 'Talk'
-// 		background-color: #FF5733
-
-
 .container-paper
-	// display: flex
 	align-items: center
 	position: relative
+	padding-bottom: 3px
+	margin-bottom: 10px
 
 	&::before
 		content: 'Paper'
@@ -245,7 +210,7 @@ pre
 		position: absolute
 		writing-mode: vertical-lr
 		-webkit-transform: rotate(-180deg)
-		border-radius: 8px
+		border-radius: 4px
 		text-align: center
 		left: 2%
 		color: #ffffff
@@ -253,13 +218,16 @@ pre
 		
 	.afterLine
 		padding-left: 45px // Remove default paragraph margins for a cleaner look
-		z-index: 1 // Place the text above the pseudo-element	
+		z-index: 1 // Place the text above the pseudo-element
+		line-height: 2.4rem
+
 
 
 .container-talk
-	display: flex
 	align-items: center
 	position: relative
+	padding-bottom: 3px
+	margin-bottom: 10px
 
 	&::before
 		content: 'Talk'
@@ -269,7 +237,7 @@ pre
 		position: absolute
 		writing-mode: vertical-lr
 		-webkit-transform: rotate(-180deg)
-		border-radius: 8px
+		border-radius: 4px
 		text-align: center
 		left: 2%
 		color: #ffffff
@@ -277,3 +245,5 @@ pre
 	.afterLine
 		padding-left: 45px // Remove default paragraph margins for a cleaner look
 		z-index: 1 // Place the text above the pseudo-element
+		line-height: 2.4rem
+
