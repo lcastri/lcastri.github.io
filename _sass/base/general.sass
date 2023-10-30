@@ -202,8 +202,8 @@ pre
 
 	&::before
 		content: ''
-		width: 5px // Adjust the fixed width of the colored block
-		background-color: #FF5733 // Set the color of the block
+		width: fit-content // Adjust the fixed width of the colored block
+		background-color: $delta // Set the color of the block
 		height: 100% // Set the height to match the full height of the container
 		position: absolute
 		transform: rotate(-90deg)
@@ -211,7 +211,16 @@ pre
 		-webkit-transform: rotate(-180deg)
 		border-radius: 8px
 		text-align: center
-		margin-left: 10px
+		left: -1%
+		color: #ffffff
+		
+		>.paper
+			content: 'Paper'
+			background-color: $delta // Set the color of the block
+		
+		>.talk
+			content: 'Talk'
+			background-color: #FF5733 // Set the color of the block
     
 
 	.text-right
