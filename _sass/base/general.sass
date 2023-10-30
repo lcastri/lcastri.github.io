@@ -195,24 +195,22 @@ pre
 .inline-icon
 	color: $zeta
 
-.custom-element 
-	display: flex
-	align-items: center
-	padding: 10px
+.container
+  display: flex
+  align-items: center
 
-	.left-content, .right-content 
-		padding: 10px
-  
+  .vertical-line
+    width: 2px
+    background-color: #000
+    margin: 0 10px
+    flex: 0 0 auto // Prevent the vertical line from expanding
 
-	.vertical-bar 
-		width: 5px
-		height: 100px
-		background-color: $delta
-		border-radius: 8px
-  
+  .before-text
+    transform: rotate(-90deg)
+    white-space: nowrap
+    text-align: center
+    flex: 1
 
-	.rotate-text 
-		transform: rotate(-90deg) 
-		margin-right: -30px
-		white-space: nowrap
-		height: 20px
+  .after-text
+    flex: 0 0 auto // Prevent the right block from expanding
+
