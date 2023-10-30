@@ -7,7 +7,7 @@
         
         <div class="additional-buttons">
 
-            {% if not include.hideCite %}
+            {% if include.showCite %}
                 <a href="#" class="btn btn-outline-primary btn-publication js-cite-modal {{ btnCit }}" data-filename="{{ include.filename }}">Cite</a>
             {% endif %}
 
