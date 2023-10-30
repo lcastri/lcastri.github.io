@@ -103,23 +103,7 @@ ol
 		line-height: 2.4rem
 		font-weight: 300
 		color: $alpha
-		padding-bottom: 10px
-.vertical-line 
-	&:before 
-		content: ""
-		position: absolute
-		left: -5%
-		width: 8px
-		border-radius: 8px
-		height: 100% /* Extend the line from top to bottom */
-		color: $delta /* Line color */
-		transform: translateY(-50%)
-		line-height: 40px
-		text-align: center
-	&::marker 
-		content: none /* Hide the default marker (bullet point) */
-    
-    
+		padding-bottom: 10px    
 
 img,
 pre,
@@ -211,3 +195,21 @@ pre
 .inline-icon
 	color: $zeta
 
+.custom-element 
+	display: flex
+	align-items: center
+	padding: 10px
+
+	.left-content, .right-content 
+		padding: 10px
+  
+
+	.vertical-bar 
+		width: 2px
+		height: 100px
+		background-color: #000
+  
+
+	.rotate-text 
+		transform: rotate(90deg) 
+		transform-origin: left center
