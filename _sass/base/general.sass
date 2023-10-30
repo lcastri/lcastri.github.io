@@ -198,19 +198,24 @@ pre
 .container
 	display: flex
 	align-items: center
+	position: relative
 
-	.vertical-line
-		width: 2px
-		background-color: #000
-		margin: 0 10px
-		flex: 0 0 auto // Prevent the vertical line from expanding
-
-	.before-text
+	&::before
+		content: ''
+		width: 5px // Adjust the fixed width of the colored block
+		background-color: #FF5733 // Set the color of the block
+		height: 100% // Set the height to match the full height of the container
+		position: absolute
 		transform: rotate(-90deg)
-		white-space: nowrap
-		flex: 1
+		writing-mode: vertical-lr
+		-webkit-transform: rotate(-180deg)
+		border-radius: 8px
 		text-align: center
+		margin-left: 10px
+    
 
-	.after-text
-		flex: 0 0 auto // Prevent the right block from expanding
+	.text-right
+		padding-left: 20px // Remove default paragraph margins for a cleaner look
+		z-index: 1 // Place the text above the pseudo-element	
+
 
