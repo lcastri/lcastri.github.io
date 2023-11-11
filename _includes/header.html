@@ -17,9 +17,8 @@
         {% endif %}
 
         <h1 class="title">{{ site.title }}</h1>
-        <h2 class="description">{{ site.bio }}</h2>
+        <h2 class="description">{{ site.bio }}<br>Research Interests:
         <!-- <h2 class="research_interests">{{ site.research }}</h2> -->
-        <h2 class="description">Research Interests:
             {% for research in site.research %}
                 <span class="research_items">{{ research }}</span>
             {% endfor %}
