@@ -1,6 +1,11 @@
 # main text of home
 title: Luca Castri
-bio: "PhD student in AI and Robotics <br> Lincoln Centre for Autonomous Systems (L-CAS) <br> University of Lincoln (UK) <br> Research interests: Causality &middot; Human-Robot Interaction &middot; Causal Robotics"
+bio: PhD student in AI and Robotics <br> Lincoln Centre for Autonomous Systems (L-CAS) <br> University of Lincoln (UK)
+research: 
+- Causality
+- Human-Robot Interaction
+- Causal Robotics
+# "Research interests: Causality &middot; Human-Robot Interaction &middot; Causal Robotics"
 
 # twitter summary info
 description: Personal webpage of Luca Castri

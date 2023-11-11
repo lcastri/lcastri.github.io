@@ -18,6 +18,14 @@
 
         <h1 class="title">{{ site.title }}</h1>
         <h2 class="description">{{ site.bio }}</h2>
+        <!-- <h2 class="research_interests">{{ site.research }}</h2> -->
+        <div class="research_interests">
+            <h2> Research Interests:
+            {% for research in site.research %}
+                {{ research }}
+            {% endfor %}
+            </h2>
+        </div>
 
         {% include social-links.html %}
     </header>
