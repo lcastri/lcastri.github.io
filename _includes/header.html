@@ -19,7 +19,7 @@
         <h1 class="title">{{ site.title }}</h1>
         <h2 class="description">{{ site.bio }}<br><br>Research Interests:
             {% for research in site.research %}
-                <span class="research_item">{{ research }}</span><!-- {% unless forloop.last %} &middot;{% endunless %} -->
+                <span class="research_item">{{ research }}</span>{% unless forloop.last %} &middot;{% endunless %}
             {% endfor %}
         </h2>
 
