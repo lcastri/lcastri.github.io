@@ -1,5 +1,5 @@
 ---
-title: Lecture on Causal Discovery for Time-Series Data in the Artificial Intelligence course of the Computer Science program at the University of Padua.<br><a class="ext_link" href="https://lcastri.github.io/talk/causal_discovery_lecture.pdf">presentation</a>.
+title: Lecture on <a class="ext_link" href="https://lcastri.github.io/talk/causal_discovery_lecture.pdf">Causal Discovery for Time-Series Data</a> in the Artificial Intelligence course of the Computer Science program at the University of Padua.<br>.
 layout: post
 date: 2024-04-11
 tag: causal_discovery_lecture2024
