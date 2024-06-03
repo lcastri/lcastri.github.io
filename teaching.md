@@ -3,6 +3,27 @@ title: Teaching
 layout: page
 ---
 
+<h2>Teaching</h2>
+<div class="container-talk">
+    <div class="afterLine">
+        </u>L. Castri</u> (17 April 2024).<br>
+        <b>Causal Discovery for Time-Series Data</b>,<br>
+        Artificial Intelligence course of the Computer Science program @ University of Padua
+        {% include citation-nav.html citnavID="talk_causaldiscoverylecture2024" 
+        showSlide=true slideLink="https://lcastri.github.io/talk/causal_discovery_ts_data_lecture.pdf"
+        %}
+    </div>
+</div>
+<div class="container-talk">
+    <div class="afterLine">
+        </u>L. Castri</u> (11 April 2023).<br>
+        <b>Causal Discovery Lecture</b>,<br>
+        Artificial Intelligence course of the Computer Science program @ University of Padua
+        {% include citation-nav.html citnavID="talk_causaldiscoverylecture2023" 
+        showSlide=true slideLink="https://lcastri.github.io/talk/causal_discovery_lecture.pdf"
+        %}
+    </div>
+</div>
 <h2>Associate Demonstrator</h2>
 <ul>
     <li>
