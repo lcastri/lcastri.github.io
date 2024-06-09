@@ -23,6 +23,10 @@
                 <a href="{{ include.codeLink }}" class="btn btn-outline-primary btn-publication">Code</a>
             {% endif %}
 
+            {% if include.showDataset %}
+                <a href="{{ include.datasetLink }}" class="btn btn-outline-primary btn-publication">Dataset</a>
+            {% endif %}
+
             {% if include.showPyPI %}
                 <a href="{{ include.pypiLink }}" class="btn btn-outline-primary btn-publication">PyPI</a>
             {% endif %}
