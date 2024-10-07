@@ -203,9 +203,61 @@ pre
 	margin-bottom: 5px
 
 	&::before
-		content: 'Paper'
+		content: 'Conference'
 		width: fit-content // Adjust the fixed width of the colored block
 		background-color: $delta // Set the color of the block
+		height: 100% // Set the height to match the full height of the container
+		position: absolute
+		writing-mode: vertical-lr
+		-webkit-transform: rotate(-180deg)
+		border-radius: 4px
+		text-align: center
+		left: 2%
+		color: #ffffff
+
+		
+	.afterLine
+		padding-left: 45px // Remove default paragraph margins for a cleaner look
+		z-index: 1 // Place the text above the pseudo-element
+		line-height: 2.4rem
+
+
+.container-workshop
+	align-items: center
+	position: relative
+	padding-bottom: 3px
+	margin-bottom: 5px
+
+	&::before
+		content: 'Workshop'
+		width: fit-content // Adjust the fixed width of the colored block
+		background-color: #bf0497 // Set the color of the block
+		height: 100% // Set the height to match the full height of the container
+		position: absolute
+		writing-mode: vertical-lr
+		-webkit-transform: rotate(-180deg)
+		border-radius: 4px
+		text-align: center
+		left: 2%
+		color: #ffffff
+
+		
+	.afterLine
+		padding-left: 45px // Remove default paragraph margins for a cleaner look
+		z-index: 1 // Place the text above the pseudo-element
+		line-height: 2.4rem
+
+
+.container-journal
+	align-items: center
+	position: relative
+	padding-bottom: 3px
+	margin-bottom: 5px
+
+	&::before
+		content: 'Journal'
+		width: fit-content // Adjust the fixed width of the colored block
+		background-color: #bf0404 // Set the color of the block
 		height: 100% // Set the height to match the full height of the container
 		position: absolute
 		writing-mode: vertical-lr
