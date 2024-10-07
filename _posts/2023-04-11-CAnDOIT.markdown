@@ -1,5 +1,5 @@
 ---
-title: <a class="ext_link" href="https://github.com/lcastri/causalflow">CAnDOIT</a> - a new Python library for causal discovery from observational and interventional time-series data.
+title: <a class="ext_link" href="https://lcastri.github.io/causalflow">CausalFlow</a> - a new Python framework featuring various causal discovery methods for time-series data. It includes our F-PCMCI and CAnDOIT algorithms.
 layout: post
 date: 2024-10-07
 tag: candoit2024
