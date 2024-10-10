@@ -1,5 +1,5 @@
 ---
-title: <a class="ext_link" href="https://github.com/lcastri/fpcmci">F-PCMCI</a> - a new Python library for fast and accurate causal discovery. Paper available <a class="ext_link" href="https://proceedings.mlr.press/v213/castri23a/castri23a.pdf">here</a>. 
+title: <a class="ext_link" href="https://github.com/lcastri/fpcmci">F-PCMCI</a> - a new Python library for fast and accurate causal discovery. Paper published at <b>CLeaR2023</b> and available <a class="ext_link" href="https://proceedings.mlr.press/v213/castri23a/castri23a.pdf">here</a>. 
 layout: post
 date: 2023-04-11
 tag: fpcmci2023
