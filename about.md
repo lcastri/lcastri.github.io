@@ -11,9 +11,11 @@ I graduated from Sapienza University of Rome (Italy) with a MSc in “Control En
 <br><br>
 Between my MSc. studies and the current position, I worked for 1 year as test engineer at <a class="ext_link" href="https://www.ferrari.com/">Ferrari</a> (Italy) and, for 1.5 year as sofware specialist at <a class="ext_link" href="https://www.metapack.it/">Metapack Engineering</a> (Italy).
 <br><br>
-You can find my complete <a class="ext_link" href="https://lcastri.github.io/cv.pdf" style="display:inline;">
-    resume <img src="/assets/images/cv-icon.png" alt="CV Icon" style="width:27px; height:27px; vertical-align: middle;">
-</a>.
+<div style="display: flex; align-items: center;">
+    You can find my complete 
+    <a class="ext_link" href="https://lcastri.github.io/cv.pdf" style="margin-left: 5px">resume</a>
+    <img src="/assets/images/cv-icon.png" alt="CV Icon" style="width:27px; height:27px; margin-left: 5px;">.
+</div>
 </p>
 
 <h2>Research</h2>
