@@ -43,9 +43,14 @@
         </a>
     {% endif %}
     
-    {% if site.cv %}
+    <!-- {% if site.cv %}
         <a class="link" data-title="{{ site.cv }}" href="cv.pdf" target="_blank" rel="noopener">
             <i class="fa-solid fa-file fa-xl"></i>
+        </a>
+    {% endif %} -->
+    {% if site.cv %}
+        <a class="link" data-title="{{ site.cv }}" href="cv.pdf" target="_blank" rel="noopener">
+            <img src="/assets/images/cv-icon.png" alt="CV Icon" style="width:24px; height:24px;">
         </a>
     {% endif %}
 </div>
