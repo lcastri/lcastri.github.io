@@ -10,17 +10,17 @@
             {% if include.showCite %}
                 <a href="#" class="btn btn-outline-primary btn-publication js-cite-modal {{ btnCit }}" data-filename="{{ include.bibLink }}">Cite</a>
             {% endif %}
-
-            {% if include.showArXiv %}
-            <a href="{{ include.arXivLink }}" class="btn btn-outline-primary btn-publication">arXiv</a>
-            {% endif %}
-
+            
             {% if include.showPublisherPage %}
             <a href="{{ include.publisherPage }}" class="btn btn-outline-primary btn-publication">Journal</a>
             {% endif %}
-
+            
             {% if include.showPDF %}
-                <a href="{{ include.pdfLink }}" class="btn btn-outline-primary btn-publication">PDF</a>
+            <a href="{{ include.pdfLink }}" class="btn btn-outline-primary btn-publication">PDF</a>
+            {% endif %}
+            
+            {% if include.showArXiv %}
+            <a href="{{ include.arXivLink }}" class="btn btn-outline-primary btn-publication">arXiv</a>
             {% endif %}
             
             {% if include.showCode %}
