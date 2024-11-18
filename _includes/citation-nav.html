@@ -15,6 +15,10 @@
             <a href="{{ include.arXivLink }}" class="btn btn-outline-primary btn-publication">arXiv</a>
             {% endif %}
 
+            {% if include.showPublisherPage %}
+            <a href="{{ include.publisherPage }}" class="btn btn-outline-primary btn-publication">Journal</a>
+            {% endif %}
+
             {% if include.showPDF %}
                 <a href="{{ include.pdfLink }}" class="btn btn-outline-primary btn-publication">PDF</a>
             {% endif %}
