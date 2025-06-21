@@ -1,5 +1,5 @@
 ---
-title: I was invited to present CausalFlow at sktime Meetup Series. Presentation <a class="ext_link" href="https://docs.google.com/presentation/d/1gpo6074CDBLl05BTPvRy9_7SL0Wx59DzchMtED2sRss/edit?usp=sharing">here</a>.
+title: I was invited to present <a class="ext_link" href="https://lcastri.github.io/causalflow">CausalFlow</a> at sktime Meetup Series. Presentation <a class="ext_link" href="https://docs.google.com/presentation/d/1gpo6074CDBLl05BTPvRy9_7SL0Wx59DzchMtED2sRss/edit?usp=sharing">here</a>.
 layout: post
 date: 2025-06-20
 tag: sktime-talk-2025
