@@ -33,6 +33,9 @@ title: Home
                     <div class="post-col post-img">
                         <img class="post-thumb" src="{{ post.image }}" width="{{ post.width }}" height="{{ post.height }}">
                     </div>
+                {% else %}
+                    <div class="post-col post-img">
+                    </div>
                 {% endif %}
                 <div class="post-col post-title">
                     {{ post.title }}
