@@ -27,18 +27,18 @@ title: Home
                     </aside>
                 </div>
             </li> -->
-            
+
             <li class="post-item">
                 {% if post.headerImage %}
-                <div class="post-col post-img">
-                    <img class="post-thumb" src="{{ post.image }}" width="{{ post.width }}" height="{{ post.height }}">
-                </div>
+                    <div class="post-col post-img">
+                        <img class="post-thumb" src="{{ post.image }}" width="{{ post.width }}" height="{{ post.height }}">
+                    </div>
                 {% endif %}
                 <div class="post-col post-title">
                     {{ post.title }}
-                    <aside>
-                        <time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time>
-                    </aside>
+                </div>
+                <div class="post-col post-date">
+                    <time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time>
                 </div>
             </li>
 
