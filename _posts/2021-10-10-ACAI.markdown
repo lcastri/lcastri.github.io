@@ -3,8 +3,8 @@ title: I attended the Advanced Course on AI (<a class="ext_link" href="https://w
 layout: post
 date: 2021-10-11
 tag: acai2021
-image:
-headerImage: false
+image: https://lcastri.github.io/assets/images/talk-icon.png
+headerImage: true
 updates: true
 hidden: true # don't count this post in blog pagination
 description: "ACAI2021"

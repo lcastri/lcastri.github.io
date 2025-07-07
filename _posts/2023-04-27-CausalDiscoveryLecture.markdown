@@ -3,7 +3,8 @@ title: I had the opportunity to give a lecture on Causal Discovery in the Artifi
 layout: post
 date: 2023-04-27
 tag: causal_discovery_lecture2023
-headerImage: false
+image: https://lcastri.github.io/assets/images/talk-icon.png
+headerImage: true
 updates: true
 hidden: true # don't count this post in blog pagination
 description: "Causal Discovery Lecture"

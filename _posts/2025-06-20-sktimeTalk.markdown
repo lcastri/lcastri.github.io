@@ -3,7 +3,8 @@ title: I was invited to present <a class="ext_link" href="https://lcastri.github
 layout: post
 date: 2025-06-20
 tag: sktime-talk-2025
-headerImage: false
+image: https://lcastri.github.io/assets/images/talk-icon.png
+headerImage: true
 updates: true
 hidden: true # don't count this post in blog pagination
 description: "CausalFlow: A Unified Framework for Causality in Time-Series"
