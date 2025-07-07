@@ -21,6 +21,6 @@ Between my MSc. studies and current position, I worked for 1 year as test engine
 <h2>Research</h2>
 <p>
 I am currently involved in the European H2020 <a class="ext_link" href="https://darko-project.eu/">DARKO</a> project. 
-<br><br>
+<br>
 My research focuses on exploiting causal inference to advance intelligent mobile robotics in dynamic interaction settings, enabling robots to improve prediction, decision-making, and overall autonomy in human-shared environments.
 </p>
