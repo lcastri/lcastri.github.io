@@ -9,7 +9,7 @@ I’m a PhD student at the <a class="ext_link" href="https://lcas.lincoln.ac.uk/
 <br><br>
 I graduated from Sapienza University of Rome (Italy) with a MSc in “Control Engineering” advised by Prof. <a class="ext_link" href="https://phd.uniroma1.it/web/ANTONIO-CARCATERRA_nC1827_EN.aspx">Antonio Carcaterra</a> and, with a BSc in “Computer Science and Control Engineering” advised by Prof. <a class="ext_link" href="http://www.diag.uniroma1.it/deluca/">Alessandro De Luca</a>. 
 <br><br>
-Between my MSc. studies and the current position, I worked for 1 year as test engineer at <a class="ext_link" href="https://www.ferrari.com/">Ferrari</a> (Italy) and, for 1.5 year as sofware specialist at <a class="ext_link" href="https://www.metapack.it/">Metapack Engineering</a> (Italy).
+Between my MSc. studies and current position, I worked for 1 year as test engineer at <a class="ext_link" href="https://www.ferrari.com/">Ferrari</a> (Italy) and, for 1.5 year as sofware specialist at <a class="ext_link" href="https://www.metapack.it/">Metapack Engineering</a> (Italy).
 <br>
 <div style="display: flex; align-items: center;">
     You can find my complete 
@@ -21,5 +21,6 @@ Between my MSc. studies and the current position, I worked for 1 year as test en
 <h2>Research</h2>
 <p>
 I am currently involved in the European H2020 <a class="ext_link" href="https://darko-project.eu/">DARKO</a> project. 
-My research focuses in Causal Inference applied to Human-Robot Spatial Interaction (HRSI). In more detail, my research aims to enable robots to learn the effects of their behaviors by observing how humans react to the robot’s actions and enhancing the quality of the interaction by exploiting the acquired causal knowledge.
+<br><br>
+My research focuses on exploiting causal inference to advance intelligent mobile robotics in dynamic interaction settings, enabling robots to improve prediction, decision-making, and overall autonomy in human-shared environments.
 </p>
