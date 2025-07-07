@@ -3,7 +3,7 @@ title: Delivered a lecture on <a class="ext_link" href="https://docs.google.com/
 layout: post
 date: 2024-11-26
 tag: causal_discovery_lecture_2024_11_26
-image: https://lcastri.github.io/assets/images/talk-icon.png
+image: https://lcastri.github.io/assets/images/lecture-icon.png
 headerImage: true
 updates: true
 hidden: true # don't count this post in blog pagination
