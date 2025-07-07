@@ -16,17 +16,34 @@ title: Home
             {% else %}
             <li class="post-item"> {{ post.title }} </li>
             {% endif %} -->
+            <!-- <li>
+                {% if post.headerImage %}
+                <img src="{{ post.image }}" width="{{ post.width }}" height="{{ post.height }}">
+                {% endif %}
+                <div class="post-title">
+                    {{ post.title }}
+                    <aside>
+                        <time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time>
+                    </aside>
+                </div>
+            </li> -->
+
             <li class="post-item">
                 {% if post.headerImage %}
-                <img class="post-thumb" src="{{ post.image }}" width="{{ post.width }}" height="{{ post.height }}">
+                    <div class="post-col post-img">
+                        <img class="post-thumb" src="{{ post.image }}" width="{{ post.width }}" height="{{ post.height }}">
+                    </div>
                 {% endif %}
-                <div>
+                <div class="post-col post-title">
                     {{ post.title }}
                 </div>
-                <aside>
+                <div class="post-col post-date">
                     <time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time>
-                </aside>
+                </div>
             </li>
+
+
+            
         {% endif %}
     {% endfor %}
     </ul>
