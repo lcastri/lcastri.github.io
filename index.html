@@ -8,14 +8,25 @@ title: Home
     <ul class="post-list">
     {% for post in site.posts %}
         {% if post.updates %}
-            <aside>
+            <!-- <aside>
                 <time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time>
             </aside>
             {% if post.headerImage %}
-                <li class="post-item"> <img style="vertical-align:middle" src="{{ post.image }}" width="{{ post.width }}" height="{{ post.height }}"> {{ post.title }} </li>
+            <li class="post-item"> <img style="vertical-align:middle" src="{{ post.image }}" width="{{ post.width }}" height="{{ post.height }}"> {{ post.title }} </li>
             {% else %}
-                <li class="post-item"> {{ post.title }} </li>
-            {% endif %}
+            <li class="post-item"> {{ post.title }} </li>
+            {% endif %} -->
+            <li class="post-item">
+                {% if post.headerImage %}
+                <img class="post-thumb" src="{{ post.image }}" width="{{ post.width }}" height="{{ post.height }}">
+                {% endif %}
+                <div>
+                    {{ post.title }}
+                </div>
+                <aside>
+                    <time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time>
+                </aside>
+            </li>
         {% endif %}
     {% endfor %}
     </ul>
