@@ -1,0 +1,14 @@
+---
+title: Defended my PhD Thesis 🎓.
+layout: post
+date: 2025-09-15
+tag: phd-viva-2025
+image: https://lcastri.github.io/assets/images/celebration-icon.png
+headerImage: true
+updates: true
+hidden: true # don't count this post in blog pagination
+description: "PhD Viva"
+category: update
+author: lucacastri
+externalLink: false
+---
