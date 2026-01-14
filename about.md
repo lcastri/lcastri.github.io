@@ -22,10 +22,10 @@ Between my academic degrees, I gained industrial experience working for one year
 <p>
 I am currently involved in the TopFleets project (partnered with <a class="ext_link" href="https://jabas.ai/">JABAS AI</a>). 
 <br>
-My research focuses on exploiting causal inference to advance intelligent mobile robotics in dynamic interaction settings, enabling robots to improve prediction, decision-making, and overall autonomy in human-shared environments.
+My research focuses on designing and deploying multi-robot coordination algorithms for heterogeneous fleets, specifically optimizing path planning and collision avoidance in dynamic shared environments. Additionally, I am developing a fleet management system dashboard to enable real-time monitoring, task allocation, and remote intervention.
 </p>
 <p>
 During my Ph.D., I was involved in the European H2020 <a class="ext_link" href="https://darko-project.eu/">DARKO</a> project. 
 <br>
-My research focuses on exploiting causal inference to advance intelligent mobile robotics in dynamic interaction settings, enabling robots to improve prediction, decision-making, and overall autonomy in human-shared environments.
+My research focused on exploiting causal inference to advance intelligent mobile robotics in dynamic interaction settings, enabling robots to improve prediction, decision-making, and overall autonomy in human-shared environments.
 </p>
