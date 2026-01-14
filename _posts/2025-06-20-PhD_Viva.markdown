@@ -1,5 +1,5 @@
 ---
-title: Defended my PhD Thesis 🎓
+title: Defended my PhD Thesis 🎓. [<a class="ext_link" href="https://docs.google.com/presentation/d/1IpHgzm50oLyMu-RDqRQHupwfEzKjfvvTOh2o7UGY3C8/edit?usp=sharing">Presentation</a>] [<a class="ext_link" href="https://lcastri.github.io/talk/viva-2025-09-15.pdf">PDF</a>]
 layout: post
 date: 2025-09-15
 tag: phd-viva-2025
