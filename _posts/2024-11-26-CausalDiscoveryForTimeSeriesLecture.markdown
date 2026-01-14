@@ -1,5 +1,5 @@
 ---
-title: Delivered a lecture on <a class="ext_link" href="https://docs.google.com/presentation/d/1uaveDbg5Lhnld_S-zsU1IFHbXWftBXklFhi2TF5Fd1c/edit?usp=sharing">Causal Discovery for Time-Series Data</a> as part of the Artificial Intelligence course in the Computer Science program at the University of Padua.
+title: Delivered a lecture on Causal Discovery for Time-Series Data as part of the Artificial Intelligence course in the Computer Science program at the University of Padua. [<a class="ext_link" href="https://docs.google.com/presentation/d/1uaveDbg5Lhnld_S-zsU1IFHbXWftBXklFhi2TF5Fd1c/edit?usp=sharing">Presentation</a>] [<a class="ext_link" href="https://lcastri.github.io/talk/lecture-2024-11-26.pdf">PDF</a>]
 layout: post
 date: 2024-11-26
 tag: causal_discovery_lecture_2024_11_26

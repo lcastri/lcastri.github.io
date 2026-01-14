@@ -1,5 +1,5 @@
 ---
-title: Talk at the Oxford Robotics Institute. Check out the presentation <a class="ext_link" href="https://docs.google.com/presentation/d/1k2y8HcJhVDuftrdipaD6Y0qUv4FqlC0XqEi3lNlPz7A/edit?usp=sharing">here</a>.
+title: Talk at the Oxford Robotics Institute. [<a class="ext_link" href="https://docs.google.com/presentation/d/1k2y8HcJhVDuftrdipaD6Y0qUv4FqlC0XqEi3lNlPz7A/edit?usp=sharing">Presentation</a>] [<a class="ext_link" href="https://lcastri.github.io/talk/talk-2025-06-11.pdf">PDF</a>].
 layout: post
 date: 2025-06-11
 tag: oxford-talk-2025
