@@ -1,0 +1,14 @@
+---
+title: Joined <a class="ext_link" href="https://neura-robotics.com">NEURA Robotics</a> as a R&D Software Engineer.
+layout: post
+date: 2026-05-01
+tag: neura-2026
+image: https://lcastri.github.io/assets/images/talk-icon.png
+headerImage: true
+updates: true
+hidden: true # don't count this post in blog pagination
+description: "NEURA"
+category: update
+author: lucacastri
+externalLink: false
+---

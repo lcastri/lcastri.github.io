@@ -1,0 +1,14 @@
+---
+title: Postdoctoral Research Associate at the University of Lincoln, focused on robot fleet coordination in collaboration with <a class="ext_link" href="https://jabas.ai">JABAS AI</a>.
+layout: post
+date: 2025-09-16
+tag: postdoc-2025
+image: https://lcastri.github.io/assets/images/talk-icon.png
+headerImage: true
+updates: true
+hidden: true # don't count this post in blog pagination
+description: "PostDoc"
+category: update
+author: lucacastri
+externalLink: false
+---
