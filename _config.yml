@@ -17,7 +17,7 @@ description: Personal webpage of Luca Castri
 external-image: false
 picture: assets/images/profile.jpg
 
-# your site color theme, false to light theme
+# your site color theme, false to light themeff
 dark-theme: false
 
 # If you want to include your resume, set to true
@@ -43,11 +43,11 @@ disqus:
 # facebook: myfacebook
 # instagram: myinstagram
 scholar: citations?user=MWKfdVQAAAAJ&hl=en&oi=ao
-twitter: luca_castri
+# twitter: luca_castri
 linkedin: lcastri
 github: lcastri
 email: lucacastri94@gmail.com
-cv: cv.pdf
+# cv: cv.pdf
 
 
 authors:
