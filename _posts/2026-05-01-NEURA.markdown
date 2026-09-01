@@ -1,5 +1,5 @@
 ---
-title: Joined <a class="ext_link" href="https://neura-robotics.com">NEURA Robotics</a> as a R&D Software Engineer.
+title: Joined <a class="ext_link" href="https://neura-robotics.com">NEURA Robotics</a> as an AI Engineer.
 layout: post
 date: 2026-05-01
 tag: neura-2026

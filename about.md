@@ -5,7 +5,7 @@ layout: page
 <img class="about-img" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" align="right">
 <h2>Biography</h2>
 <p>
-I am an R&D Software Engineer at <a class="ext_link" href="https://neura-robotics.com/">NEURA Robotics</a>, where I architect and develop advanced AI solutions for quadrupedal robots. 
+I am an AI Engineer at <a class="ext_link" href="https://neura-robotics.com/">NEURA Robotics</a>, where I architect and develop advanced AI solutions for quadrupedal robots. 
 <br><br>
 Previously, I was a Postdoctoral Researcher at the <a class="ext_link" href="https://lcas.lincoln.ac.uk/wp/">Lincoln Centre for Autonomous Systems (L-CAS)</a>, University of Lincoln (UK), working on the TopFleets project in partnership with <a class="ext_link" href="https://jabas.ai/">JABAS AI</a>. I hold a Ph.D. in AI and Robotics from the same institution, where my research focused on causal inference frameworks to enhance robot decision-making in human-shared environments, advised by Prof. <a class="ext_link" href="https://iaslab.dei.unipd.it/people/nbellotto/about/">Nicola Bellotto</a> and Prof. <a class="ext_link" href="https://www.hanheide.net/">Marc Hanheide</a>.
 <br><br>
